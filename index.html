@@ -2,10 +2,10 @@
 <!-- Augmented Reality on the Web with Chroma key and custom pattern --> 
 <html>
 <head>
-	<script src="./assets/js/aframe.min.js"></script>
-	<script src="./assets/js/aframe-ar.js"></script>
-	<script src="./assets/js/aframe-extras.loaders.min.js"></script>
-	<script src="./assets/js/aframe-chromakey-material.min.js"></script>
+	<script src="./Assets/js/aframe.min.js"></script>
+	<script src="./Assets/js/aframe-ar.js"></script>
+	<script src="./Assets/js/aframe-extras.loaders.min.js"></script>
+	<script src="./Assets/js/aframe-chromakey-material.min.js"></script>
 
 	<meta charset="utf-8">
 	<meta name="description" content="AR Aframe ChromaKey">
@@ -69,10 +69,10 @@
 		  controls
 		  crossorigin="anonymous"
 		  loop="true"
-		  src="./assets/media/ps.mp4">
+		  src="./Assets/media/ps.mp4">
 	  </video>
 
-		<a-marker preset='custom' type='pattern' url='./assets/markers/pattPS.patt'>
+		<a-marker preset='custom' type='pattern' url='./Assets/markers/pattPS.patt'>
 			<a-video material="shader: chromakey; src: #mivideo; color: 0.1 0.9 0.2" src="#mivideo" position="0 0 0" scale="1.5 1.5 1.5" rotation="270 0 0" ></a-video> 	<!--https://github.com/nikolaiwarner/aframe-chromakey-material -->
 			<script> 
 				var m = document.querySelector("a-marker")
